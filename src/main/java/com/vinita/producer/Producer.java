@@ -26,7 +26,7 @@ public class Producer implements Runnable {
         } catch (InterruptedException e) {
             // Log and handle the interrupted exception
             Thread.currentThread().interrupt();  // Restore interrupted status
-            e.printStackTrace();  // Optionally log the error, but prefer proper logging in real code
+            e.printStackTrace();
         }
     }
 }
