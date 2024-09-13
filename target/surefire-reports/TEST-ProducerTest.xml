@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ProducerTest" time="0.039" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/test-classes:/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/classes:/Users/vinitabhatia/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/vinitabhatia/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/vinitabhatia/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/vinitabhatia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/vinitabhatia/Library/Java/JavaVirtualMachines/openjdk-17/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/surefire/surefirebooter-20240913234051247_3.jar /Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/surefire 2024-09-13T23-38-17_546-jvmRun1 surefire-20240913234051247_1tmp surefire_0-20240913234051247_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/test-classes:/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/classes:/Users/vinitabhatia/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/vinitabhatia/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/vinitabhatia/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/vinitabhatia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vinitabhatia"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="/Users/vinitabhatia/Library/Java/JavaVirtualMachines/openjdk-17/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue/target/surefire/surefirebooter-20240913234051247_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-2724"/>
+    <property name="user.name" value="vinitabhatia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/vinitabhatia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/l5/w5tqtj6x157c0ndsn3hd057h0000gn/T/"/>
+    <property name="idea.version" value="2021.2.4"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/vinitabhatia/Desktop/ProducerConsumerMessageQueue"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/vinitabhatia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testProducer" classname="ProducerTest" time="0.023">
+    <system-out><![CDATA[Produced :Message{employeeName:'Anil Patel'}
+Produced :Message{employeeName:'Akash Mehta'}
+Consumed :Message{employeeName:'Anil Patel'}
+Consumed :Message{employeeName:'Akash Mehta'}
+]]></system-out>
+  </testcase>
+</testsuite>

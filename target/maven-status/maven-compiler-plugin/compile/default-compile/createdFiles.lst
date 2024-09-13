@@ -1,0 +1,5 @@
+com/vinita/producer/Producer.class
+com/vinita/consumer/Consumer.class
+com/vinita/Main.class
+com/vinita/messageQueue/Message.class
+com/vinita/messageQueue/MessageQueue.class
